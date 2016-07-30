@@ -1,0 +1,76 @@
+
+body{
+    background-color: silver;
+    font-size: medium;
+    font-family: "Time New Roman";
+    color: black;
+}
+.site-wrapper{
+    position: relative;
+}
+.background{
+    position: relative;
+}
+#backImg{
+    position: relative;
+    height: auto;
+    width: 100%;
+    opacity: 0.85;
+}
+.container{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.content1{
+    position: absolute;
+    top: 8%;
+    height: 40%;
+    width: 100%;
+}
+.autoBio{
+    position: absolute;
+}
+h2{
+    font-weight: bold;
+}
+#scrollTop{
+    position: fixed;
+}
+
+
+
+
+
+.content2{
+    position: absolute;
+    top: 20%;
+    height: 40%;
+    width: 100%;
+}
+.table1container{
+    padding: 10px;
+    border: solid;
+    border-width: 10px;
+    border-color: #2b2d2f;
+    border-radius: 10px;
+}
+
+
+
+
+
+.footer{
+    position: absolute;
+    bottom: 4%;
+    width: 80%;
+}
+.SVG{
+    width: 25%;
+}
+
