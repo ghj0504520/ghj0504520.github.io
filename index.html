@@ -13,7 +13,7 @@
     <!--self build-->
     <link type="text/css" rel="stylesheet" href="style.css" >
     <script type="text/javascript" src="ui.js"></script>
-    
+
 </head>
 
 <body>
@@ -108,34 +108,21 @@
                 </div>
                 <div class="modal-body">
                     <h4>education:</h4>
-                    <div class="table1container">
-                        <table class="table table-bordered table-condensed">
-                            <thead>
-                                <tr>
-                                    <th>school</th>
-                                    <th>year</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>National Sun Yat-sen University ~ B.S in CSE</td>
-                                    <td>2018</td>
-                                </tr>
-                                <tr>
-                                    <td>National Tainan First Senior High School</td>
-                                    <td>2014</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="list1container">
+
+                        <ul class="list-group">
+                            <li class="list-group-item active">National Sun Yat-sen University ~ B.S in CSE(2018)</li>
+                            <li class="list-group-item">National Tainan First Senior High School(2014)</li>
+                        </ul>
                     </div>
 
                     <HR>
 
                     <h4>GHJ:</h4>
 
-                    <p>中文</p>
+                    <p>中文:</p>
 
-                    <p>English</p>
+                    <p>English:</p>
 
                 </div>
 
@@ -215,7 +202,7 @@
     <!-- coursetimetable -->
     <div class="modal fade" id="coursetimetable" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
-        <div class="modal-dialog modal-lg" style="opacity: 0.8;">
+        <div class="modal-dialog modal-lg" style="opacity: 0.85;">
 
                 <div class="modal-content" style="background-color: #687077;" >
 
@@ -226,50 +213,124 @@
                     </div>
 
                     <div class="modal-body">
-                        <h4>2016 First semester:</h4>
-                        <div class="table1container">
+                        <div class="panel-group" id="accordion" >
 
-                            <table class="table table-bordered table-condensed">
-                                <thead>
-                                <tr>
-                                    <th>time</th>
-                                    <th>1</th>
-                                    <th>2</th>
-                                    <th>3</th>
-                                    <th>4</th>
-                                    <th>5</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                    </tr>
-                                    <tr>
-                                        <td>8</td>
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div class="panel panel-default" style="border-width: 3px">
+                                <div class="panel-heading" style="background-color: gray">
+                                    <h4 class="panel-title" style="color: black">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">2016 First semester</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse1" class="panel-collapse collapse in">
+                                    <div class="panel-body" style="background-color: #687077">
+                                        <div class="table1container">
+
+                                            <table class="table table-bordered table-condensed">
+                                                <thead>
+                                                <tr>
+                                                    <th>time</th>
+                                                    <th>1</th>
+                                                    <th>2</th>
+                                                    <th>3</th>
+                                                    <th>4</th>
+                                                    <th>5</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td></td>
+                                                    <td>網路系統程式設計</td>
+                                                    <td></td>
+                                                    <td>演算法</td>
+                                                    <td>組合語言與微處理機實習</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td></td>
+                                                    <td>網路系統程式設計</td>
+                                                    <td></td>
+                                                    <td>演算法</td>
+                                                    <td>組合語言與微處理機實習</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td></td>
+                                                    <td>網路系統程式設計</td>
+                                                    <td></td>
+                                                    <td>演算法</td>
+                                                    <td>組合語言與微處理機實習</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>資訊工程論壇</td>
+                                                    <td></td>
+                                                    <td>無線網際網路</td>
+                                                    <td></td>
+                                                    <td>嵌入式系統程式設計</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td>無線網際網路</td>
+                                                    <td>組合語言與微處理機</td>
+                                                    <td>嵌入式系統程式設計</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td>無線網際網路</td>
+                                                    <td>組合語言與微處理機</td>
+                                                    <td>嵌入式系統程式設計</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td></td>
+                                                    <td>運動競賽倫理</td>
+                                                    <td></td>
+                                                    <td>組合語言與微處理機</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td></td>
+                                                    <td>運動競賽倫理</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="panel panel-default" style="border-width: 3px">
+                                <div class="panel-heading" style="background-color: gray">
+                                    <h4 class="panel-title" style="color: black">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">previous course</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse2" class="panel-collapse collapse">
+                                    <div class="panel-body" style="background-color: #687077">
+                                        <ul>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
