@@ -4,7 +4,7 @@
 $(document).ready(function(){
 
     $('.footer').fadeOut();
-    $('#scrollCount').remove();
+    //$('#scrollCount').remove();
     heightScroll();
 
 });
@@ -14,11 +14,16 @@ function heightScroll(){
     $(window).scroll(function(){
 
         var nowTop = $(this).scrollTop();
-        /*$('#scrollCount').remove();
-        $('<p id="scrollCount">' + nowTop + '</p>').appendTo($('#scrollTop'));*/
+        $('#scrollCount').remove();
+        $('<p id="scrollCount">' + nowTop + '</p>').appendTo($('#scrollTop'));
 
+        var zoom=(window.outerWidth / window.innerWidth)*100;
 
-        if(nowTop>=430)
+        if(zoom>100 && nowTop>=430)
+        {
+            $('.footer').fadeIn();
+        }
+        else if(zoom<=100 && nowTop>=530)
         {
             $('.footer').fadeIn();
         }
