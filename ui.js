@@ -19,11 +19,11 @@ function heightScroll(){
 
         var zoom=(window.outerWidth / window.innerWidth)*100;
 
-        if(zoom>100 && nowTop>=430)
+        if(zoom>=100 && nowTop>=430)
         {
             $('.footer').fadeIn();
         }
-        else if(zoom<=100 && nowTop>=530)
+        else if(zoom<100 && nowTop>=530)
         {
             $('.footer').fadeIn();
         }
