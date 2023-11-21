@@ -144,14 +144,21 @@ a:after {
 #ww {
 	padding-top: 70px;
 	padding-bottom: 70px;
-	background-color: #f2f2f2;
+	background-color: #FFFFF0;
 }
 
+li.mypublication {
+    text-align: left;
+    width: 100%;
+    padding: 0 20px 0 50px;
+    margin:5px;
+    font-size: 15px;
+}
 
 #footer {
 	background-color: #2f2f2f;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 35px;
+	padding-bottom: 30px;
 }
 
 #footer p {
@@ -164,7 +171,7 @@ a:after {
 	padding-bottom: 20px;
 }
 .SVG {
-	width: 25%;
+	width: 20%;
 }
 
 /* +++++ Color Wraps / Blog Page +++++ */
